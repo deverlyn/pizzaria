@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/median_gray"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginRight="40dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Compra efetuada com sucesso!"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="50dp"
+            android:layout_height="200dp"
+            tools:srcCompat="@mipmap/ic_correct_round" />
+
+        <Button
+            android:id="@+id/voltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape"
+            android:text="Voltar"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
